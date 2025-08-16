@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ek Pahel Esi Bhi - NGO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="NGO Logo" class="logo">
+    <h1 id="title-en">Ek Pahel Esi Bhi</h1>
+    <h1 id="title-hi" style="display:none;">एक पहल ऐसी भी</h1>
+    <nav>
+      <ul>
+        <li><a href="#about" id="nav-about-en">About Us</a><a href="#about" id="nav-about-hi" style="display:none;">हमारे बारे में</a></li>
+        <li><a href="#work" id="nav-work-en">Our Work</a><a href="#work" id="nav-work-hi" style="display:none;">हमारा कार्य</a></li>
+        <li><a href="#gallery" id="nav-gallery-en">Gallery</a><a href="#gallery" id="nav-gallery-hi" style="display:none;">गैलरी</a></li>
+        <li><a href="#contact" id="nav-contact-en">Contact</a><a href="#contact" id="nav-contact-hi" style="display:none;">संपर्क करें</a></li>
+      </ul>
+    </nav>
+    <button onclick="switchLanguage()" id="lang-btn">हिन्दी</button>
+  </header>
+
+  <section id="about">
+    <h2 id="about-title-en">About Us</h2>
+    <h2 id="about-title-hi" style="display:none;">हमारे बारे में</h2>
+    <p id="about-text-en">We are a non-profit NGO working for <b>women empowerment</b>. For the last 4 years, we have been striving to support women through education, skills, and opportunities.</p>
+    <p id="about-text-hi" style="display:none;">हम एक गैर-लाभकारी संस्था हैं जो <b>महिला सशक्तिकरण</b> के लिए काम कर रही है। पिछले 4 वर्षों से हम शिक्षा, कौशल और अवसरों के माध्यम से महिलाओं को सशक्त बनाने का प्रयास कर रहे हैं।</p>
+  </section>
+
+  <section id="work">
+    <h2 id="work-title-en">Our Work</h2>
+    <h2 id="work-title-hi" style="display:none;">हमारा कार्य</h2>
+    <ul>
+      <li id="work1-en">Skill Development Programs</li>
+      <li id="work1-hi" style="display:none;">कौशल विकास कार्यक्रम</li>
+      <li id="work2-en">Education Support for Girls</li>
+      <li id="work2-hi" style="display:none;">लड़कियों के लिए शिक्षा सहायता</li>
+      <li id="work3-en">Health & Awareness Campaigns</li>
+      <li id="work3-hi" style="display:none;">स्वास्थ्य और जागरूकता अभियान</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2 id="gallery-title-en">Gallery</h2>
+    <h2 id="gallery-title-hi" style="display:none;">गैलरी</h2>
+    <div class="gallery">
+      <img src="assets/gallery/event1.jpg" alt="Event 1">
+      <img src="assets/gallery/event2.jpg" alt="Event 2">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 id="contact-title-en">Contact Us</h2>
+    <h2 id="contact-title-hi" style="display:none;">संपर्क करें</h2>
+    <p>Email: <a href="mailto:aisibhiekpahel@gmail.com">aisibhiekpahel@gmail.com</a></p>
+    <p>Location: Delhi - 110094</p>
+    <iframe src="https://www.google.com/maps?q=Delhi%20110094&output=embed" width="100%" height="250" style="border:0;"></iframe>
+  </section>
+
+  <footer>
+    <p>© 2025 Ek Pahel Esi Bhi NGO | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>7
